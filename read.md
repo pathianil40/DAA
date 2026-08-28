@@ -28,8 +28,47 @@ The factorial of a number can be calculated using both iteration and recursion. 
 Iterative: O(n) time, O(1) space
 Recursive: O(n) time, O(n) space
 Conclusion
-Both iterative and recursive methods correctly calculate factorials. The iterative method is generally more memory-efficient because it does not create multiple function calls. The recursive method is useful for understanding recursion and is easier to express mathematically, but it requires additional stack memory   
+Both iterative and recursive methods correctly calculate factorials. The iterative method is generally more memory-efficient because it does not create multiple function calls. The recursive method is useful for understanding recursion and is easier to express mathematically, but it requires additional stack memory  
 
+
+                               practical-5
+ Summary
+
+The Knapsack Problem using Dynamic Programming is an optimization problem in which we select items with given weights and values to obtain the maximum total value without exceeding the given knapsack capacity. Dynamic Programming solves the problem by breaking it into smaller subproblems and storing their results in a table to avoid repeated calculations.
+
+For the 0/1 Knapsack Problem, each item can either be selected (1) or not selected (0). The DP table is constructed based on the number of items and the available capacity.
+
+Time Complexity: O(n × W)
+Space Complexity: O(n × W)
+
+where:
+
+n = number of items
+W = capacity of the knapsack
+
+Conclusion
+
+The 0/1 Knapsack Problem using Dynamic Programming efficiently finds the maximum possible value that can be obtained within a limited capacity. Compared with a simple recursive approach, Dynamic Programming is faster because it stores previously calculated results and avoids solving the same subproblems repeatedly. Therefore, it is an effective technique for solving optimization problems involving limited resources and maximum benefit.   
+
+
+              practical-6
+
+### Summary
+
+The **Chain Matrix Multiplication problem** is an optimization problem used to find the **best order for multiplying a sequence of matrices**. The order of multiplication does not change the final result, but different orders can require different numbers of scalar multiplications.
+
+Dynamic Programming solves this problem by dividing the matrix chain into smaller subproblems and storing their minimum multiplication costs in a table. It checks different possible positions to split the chain and selects the order with the **minimum number of scalar multiplications**.
+
+**Time Complexity:** `O(n³)`
+**Space Complexity:** `O(n²)`
+
+where `n` is the number of matrices.
+
+### Conclusion
+
+The **Chain Matrix Multiplication using Dynamic Programming** efficiently determines the optimal order for multiplying matrices. It reduces the number of unnecessary calculations by storing previously computed results. Although the matrices remain the same, choosing the correct multiplication order can significantly reduce the computational cost. Therefore, Dynamic Programming is an effective technique for solving the **Matrix Chain Multiplication optimization problem**.
+              
+    
                          practical-7
 summary
 Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient \(O(N \times C)\) time complexity and O(N) space complexity (where N is the target amount and C is coin types)
