@@ -74,3 +74,18 @@ summary
 Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient \(O(N \times C)\) time complexity and O(N) space complexity (where N is the target amount and C is coin types)
 conclusion
 Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
+
+
+                       practical-8
+summary
+Breadth First Search (BFS) and Depth First Search (DFS) are important graph and tree traversal algorithms used to visit nodes systematically.
+
+BFS visits nodes level by level. It uses a Queue (FIFO).
+DFS explores a branch as deeply as possible before backtracking. It commonly uses recursion or a Stack.
+Both BFS and DFS have a time complexity of O(V + E) for a graph, where V is the number of vertices and E is the number of edges.
+BFS is commonly useful for finding the shortest path in an unweighted graph.
+DFS is useful for path exploration, tree traversal, connected components, and backtracking problems.
+
+Conclusion
+BFS and DFS are fundamental algorithms for solving graph and tree problems. BFS focuses on breadth and level-by-level searching, while DFS focuses on depth and exploring one path completely before moving to another. The choice between BFS and DFS depends on the problem requirements, such as whether level-order searching, shortest paths, or deep path exploration is needed.
+                       
