@@ -88,4 +88,14 @@ DFS is useful for path exploration, tree traversal, connected components, and ba
 
 Conclusion
 BFS and DFS are fundamental algorithms for solving graph and tree problems. BFS focuses on breadth and level-by-level searching, while DFS focuses on depth and exploring one path completely before moving to another. The choice between BFS and DFS depends on the problem requirements, such as whether level-order searching, shortest paths, or deep path exploration is needed.
+
+
+                practical-9
+Summary
+
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, and undirected graph. It starts from any vertex and repeatedly selects the minimum-weight edge that connects a selected vertex to an unselected vertex. The process continues until all vertices are included in the MST. In the Python implementation above, the graph is represented using an adjacency matrix, and the total cost of the MST is calculated.
+
+Conclusion
+
+Prim’s Algorithm provides an efficient way to connect all vertices of a graph with the minimum possible total edge weight and without forming cycles. It is useful in applications such as network design, road connections, computer networks, and electrical systems. The Python implementation demonstrates how the algorithm selects the minimum edges step by step to construct the Minimum Spanning Tree.                
                        
