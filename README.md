@@ -85,7 +85,7 @@ Conclusion
 
 Prim’s Algorithm provides an efficient way to connect all vertices of a graph with the minimum possible total edge weight and without forming cycles. It is useful in applications such as network design, road connections, computer networks, and electrical systems. The Python implementation demonstrates how the algorithm selects the minimum edges step by step to construct the Minimum Spanning Tree.
 
-practical-10
+                      practical-10
 
 Summary Kruskal's Algorithm is a Greedy Algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It selects edges in increasing order of their weights and avoids cycles using the Disjoint Set (Union-Find) data structure. The algorithm continues until it selects exactly V−1 edges.
 
@@ -93,4 +93,21 @@ Time Complexity: O(E log E)
 Auxiliary Space Complexity: O(V)
 Total Space Complexity: O(V + E)
 Example Minimum Cost: 19
-Conclusion Kruskal's Algorithm efficiently finds the Minimum Spanning Tree by selecting the minimum-weight edges without creating cycles. It helps connect all vertices with the minimum possible total cost. It is widely used in network design, road construction, electrical wiring and communication networks. Thus, Kruskal's Algorithm is an important application of Greedy techniques in graph theory.
+
+Conclusion
+
+Kruskal's Algorithm efficiently finds the Minimum Spanning Tree by selecting the minimum-weight edges without creating cycles. It helps connect all vertices with the minimum possible total cost. It is widely used in network design, road construction, electrical wiring and communication networks. Thus, Kruskal's Algorithm is an important application of Greedy techniques in graph theory.
+
+
+                Practical -11
+Summary
+
+Floyd-Warshall Algorithm is a Dynamic Programming algorithm used to find the shortest paths between all pairs of vertices in a weighted graph. It works by considering each vertex as an intermediate vertex and updating the distance matrix whenever a shorter path is found. It supports positive and negative edge weights but does not support negative-weight cycles.
+- Time Complexity: O(V³)
+- Space Complexity: O(V²)
+- Technique Used: Dynamic Programming
+- Application: Finding shortest distances between all pairs of vertices.
+  
+Conclusion
+
+Floyd-Warshall Algorithm is an efficient method for finding the shortest distances between every pair of vertices in a graph. It repeatedly updates the distance matrix to obtain the minimum distance between vertices. It is widely used in network routing, transportation systems and pathfinding applications. Thus, Floyd-Warshall Algorithm is an important algorithm for solving all-pairs shortest path problems in graph theory.                
