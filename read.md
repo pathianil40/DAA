@@ -97,5 +97,20 @@ Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree 
 
 Conclusion
 
-Prim’s Algorithm provides an efficient way to connect all vertices of a graph with the minimum possible total edge weight and without forming cycles. It is useful in applications such as network design, road connections, computer networks, and electrical systems. The Python implementation demonstrates how the algorithm selects the minimum edges step by step to construct the Minimum Spanning Tree.                
+Prim’s Algorithm provides an efficient way to connect all vertices of a graph with the minimum possible total edge weight and without forming cycles. It is useful in applications such as network design, road connections, computer networks, and electrical systems. The Python implementation demonstrates how the algorithm selects the minimum edges step by step to construct the Minimum Spanning Tree. 
+
+
+
                        
+
+practical-10
+
+Summary
+Kruskal's Algorithm is a Greedy Algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It selects edges in increasing order of their weights and avoids cycles using the Disjoint Set (Union-Find) data structure. The algorithm continues until it selects exactly V−1 edges.
+- Time Complexity: O(E log E)
+- Auxiliary Space Complexity: O(V)
+- Total Space Complexity: O(V + E)
+- Example Minimum Cost: 19
+  
+Conclusion
+Kruskal's Algorithm efficiently finds the Minimum Spanning Tree by selecting the minimum-weight edges without creating cycles. It helps connect all vertices with the minimum possible total cost. It is widely used in network design, road construction, electrical wiring and communication networks. Thus, Kruskal's Algorithm is an important application of Greedy techniques in graph theory.
