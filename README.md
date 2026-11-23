@@ -110,4 +110,19 @@ Floyd-Warshall Algorithm is a Dynamic Programming algorithm used to find the sho
   
 Conclusion
 
-Floyd-Warshall Algorithm is an efficient method for finding the shortest distances between every pair of vertices in a graph. It repeatedly updates the distance matrix to obtain the minimum distance between vertices. It is widely used in network routing, transportation systems and pathfinding applications. Thus, Floyd-Warshall Algorithm is an important algorithm for solving all-pairs shortest path problems in graph theory.                
+Floyd-Warshall Algorithm is an efficient method for finding the shortest distances between every pair of vertices in a graph. It repeatedly updates the distance matrix to obtain the minimum distance between vertices. It is widely used in network routing, transportation systems and pathfinding applications. Thus, Floyd-Warshall Algorithm is an important algorithm for solving all-pairs shortest path problems in graph theory.  
+
+
+                       Practical-12
+Summary
+
+The Travelling Salesman Problem (TSP) is an optimization problem used to find the shortest possible route that visits every city exactly once and returns to the starting city. It can be solved using Dynamic Programming with Bitmasking, which stores previously calculated results to avoid repeated calculations.
+- Time Complexity: O(V² × 2^V)
+- Space Complexity: O(V × 2^V)
+- Technique Used: Dynamic Programming with Bitmasking
+- Example Minimum Cost: 80
+
+- 
+ Conclusion
+
+The Travelling Salesman Problem is an important optimization problem in computer science. Dynamic Programming helps find the minimum travelling cost by considering different combinations of visited cities and avoiding repeated calculations. It is widely used in transportation, delivery services, route planning and logistics management. Thus, TSP helps determine an optimal travelling route with minimum cost.                       
